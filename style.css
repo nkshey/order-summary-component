@@ -96,7 +96,8 @@ body {
   text-decoration-line: underline;
 }
 
-.change-btn:hover {
+.change-btn:hover,
+.change-btn:active {
   color: #766cf1;
   cursor: pointer;
   text-decoration-line: none;
@@ -115,7 +116,8 @@ body {
   margin-bottom: 32px;
 }
 
-.payment-box:hover {
+.payment-box:hover,
+.payment-box:active {
   background-color: #766cf1;
   cursor: pointer;
 }
@@ -134,7 +136,8 @@ body {
   line-height: 20px;
 }
 
-.cancel:hover {
+.cancel:hover,
+.cancel:active {
   color: #1f2e55;
   cursor: pointer;
 }
