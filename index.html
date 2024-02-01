@@ -1,39 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="images/favicon-32x32.png" />
-    <title>Order Summary</title>
-  </head>
-  <body>
-    <div class="main-container">
-      <img src="images/illustration-hero.svg" alt="" class="illustration" />
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./images/favicon-32x32.png"
+      />
+      <title>Frontend Mentor | Order summary card</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div class="container">
+         <div class="card">
+            <img
+               src="images/illustration-hero.svg"
+               alt="hero illustration"
+               class="img-hero"
+            />
+            <div class="summary-wrapper">
+               <section class="section-information">
+                  <h1>Order Summary</h1>
+                  <p>
+                     You can now listen to millions of songs, audiobooks, and
+                     podcasts on any device anywhere you like!
+                  </p>
+               </section>
 
-      <h1 class="title">Order Summary</h1>
+               <section class="section-plan">
+                  <div class="plan-option">
+                     <img
+                        src="images/icon-music.svg"
+                        alt="music icon"
+                        class="icon-music"
+                     />
+                     <div class="plan-price">
+                        <h3>Annual Plan</h3>
+                        <p>$59.99/year</p>
+                     </div>
+                  </div>
+                  <a href="#">Change</a>
+               </section>
 
-      <p class="description">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-
-      <div class="details-box">
-        <img src="images/icon-music.svg" alt="" class="icon-music" />
-        <div class="yuti">
-          <h2 class="plan">Annual Plan</h2>
-          <p class="price">$59.99/year</p>
-        </div>
-
-        <p class="change-btn" ontouchstart="">Change</p>
+               <section class="section-buttons">
+                  <button class="btn-primary">Proceed to Payment</button>
+                  <button class="btn-cancel">Cancel Order</button>
+               </section>
+            </div>
+         </div>
       </div>
-
-      <div class="payment-box" ontouchstart="">
-        <h1>Proceed to Payment</h1>
-      </div>
-
-      <p class="cancel" ontouchstart="">Cancel Order</p>
-    </div>
-  </body>
+   </body>
 </html>
